@@ -18,7 +18,7 @@ app.use(
         callback(new Error("Cors Error"));
       }
     },
-    // origin: "*",
+
     credentials: true,
   })
 );
